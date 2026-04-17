@@ -6,20 +6,19 @@
 /*#4D4861 #605770 #9E7682 #EBF2FA ; 1 white, 2 purple, 1 orange */
 /* #343E3D #6F8576 #C6E7D2 #ADA7C9 #D7B9D5 ; 3 green d->l and 2 lilac  #d2b1d0*/
 
-:root {
+/* :root {
   --bg-color: #414e4d;
   --text-color: #e9d8e8;
   --highlight-color-one: #839d6c;
   --highlight-color-two: #414e4d;
   --highlight-color-three: #212830;
-}
+} */
 
 body {
-  background-color: var(--highlight-color-two);
-  color: var(--text-color);
+  background-color: #69353f;
 }
 
-.navbar-brand {
+/* .navbar-brand {
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -27,15 +26,10 @@ body {
 
 html {
   scroll-behavior: smooth;
-}
+} */
 
 /* Hero Section */
-.hero-section {
-  background-image: url("../images/mtnmock.jpeg");
-
-  background-size: cover;
-  background-position: center;
-
+/* .hero-section {
   height: 100vh;
   display: flex;
   align-items: right;
@@ -70,10 +64,10 @@ h5 {
 }
 .carousel-control-prev {
   background-color: violet;
-}
+} */
 
 /* Work section */
-h2 {
+/* h2 {
   color: (var(--text-color));
   font-family: "Fascinate Inline", system-ui;
   font-weight: 700;
@@ -134,4 +128,4 @@ h2 {
   font-size: 3rem;
   font-weight: 700;
   text-align: center;
-}
+} */
