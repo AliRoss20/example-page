@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Ewert&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ewert&family=Fascinate+Inline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&family=Ewert&family=Fascinate+Inline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&family=Ewert&family=Fascinate+Inline&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/*#4D4861 #605770 #9E7682 #EBF2FA ; 1 white, 2 purple, 1 orange */
+/* #343E3D #6F8576 #C6E7D2 #ADA7C9 #D7B9D5 ; 3 green d->l and 2 lilac  #d2b1d0*/
+
+:root {
+  --bg-color: #414e4d;
+  --text-color: #e9d8e8;
+  --highlight-color-one: #839d6c;
+  --highlight-color-two: #414e4d;
+  --highlight-color-three: #212830;
+}
+
+body {
+  background-color: var(--highlight-color-two);
+  color: var(--text-color);
+}
+
+.navbar-brand {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hero Section */
+.hero-section {
+  background-image: url("../images/mtnmock.jpeg");
+
+  background-size: cover;
+  background-position: center;
+
+  height: 100vh;
+  display: flex;
+  align-items: right;
+  justify-content: flex-start;
+  color: black;
+}
+
+.hero-section h1 {
+  font-weight: 700;
+  font-family: "Fascinate Inline", system-ui;
+}
+
+h3,
+h4,
+h5 {
+  font-family: "Ewert", cursive;
+}
+
+.hero-section .lead {
+  font-size: 1.5rem;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.carousel-inner img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  padding-right: 5em;
+  padding-left: 5em;
+}
+.carousel-control-prev {
+  background-color: violet;
+}
+
+/* Work section */
+h2 {
+  color: (var(--text-color));
+  font-family: "Fascinate Inline", system-ui;
+  font-weight: 700;
+}
+.work-card img {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 0;
+}
+.work-card {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.card-title {
+  font-size: 2.5rem;
+}
+
+.btn {
+  background-color: var(--highlight-color-one);
+  border-style: outset;
+  border-color: #d7b9d5;
+}
+
+.btn:hover {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.modal-body img {
+  width: 100%;
+}
+
+.parallax {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/mtnmock.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  scroll-snap-align: start;
+}
+
+.parallax:nth-child(2) {
+  background-image: url("../images/mtn2.jpg");
+}
+.parallax:nth-child(3) {
+  background-image: url("../images/mtnmock.jpeg");
+}
+
+.content {
+  color: var(--text-color);
+  font-family: "Fascinate Inline", system-ui;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
